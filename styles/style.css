@@ -47,11 +47,11 @@ section {
 @media (max-width: 767px) /* @grid-float-breakpoint -1 */
 {
     body {
-    	padding-top: 50px;
+    	padding-top: 60px;
     }
     .logo {
       height:35px;
-      margin top: 5px;
+      margin top: 20px;
     }
 }
 
