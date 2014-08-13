@@ -22,7 +22,11 @@ body {
 
 .navbar {
 	border-radius: 0px;
+<<<<<<< HEAD
   padding: 0 150px;
+=======
+	padding: 0 150px;
+>>>>>>> c275077639a5a99b00c6e4a25dc0eda11718670f
 
 }
 
@@ -61,9 +65,14 @@ section {
     section {
       padding: 0 20px;
     }
+<<<<<<< HEAD
 
     .navbar {
       padding: 0px;
+=======
+    .navbar {
+    	padding: 0px;
+>>>>>>> c275077639a5a99b00c6e4a25dc0eda11718670f
     }
 }
 
