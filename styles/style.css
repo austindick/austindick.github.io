@@ -58,6 +58,9 @@ section {
       height:35px;
       margin-top: 3px;
     }
+    section {
+      padding: 0 20px;
+    }
 
     .navbar {
       padding: 0px;
