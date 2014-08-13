@@ -65,5 +65,9 @@ section {
     .navbar {
       padding: 0px;
     }
+
+    .service_image {
+      padding: 10px 5px;
+    }
 }
 
