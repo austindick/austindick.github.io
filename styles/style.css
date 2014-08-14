@@ -53,6 +53,10 @@ section {
   padding-top: 52px;
 }
 
+.carousel-control {
+  top: 40px;
+}
+
 @media (max-width: 767px) /* @grid-float-breakpoint -1 */
 {
     body {
