@@ -96,5 +96,9 @@ section {
       height: 7px;
     }
 
+    .carousel-control {
+      top: 30px;
+    }
+
 }
 
