@@ -13,16 +13,16 @@
 }
 
 body {
-    background-size: 100%;
-    background-repeat: no-repeat;
+  background-size: 100%;
+  background-repeat: no-repeat;
 	background-image: url(../img/bg.jpg);
-	padding-top:60px;
 	font-family:'Open Sans', sans-serif;
 }
 
 .navbar {
 	border-radius: 0px;
   padding: 0 150px;
+  box-shadow: 0px 0px 25px #000000;
 
 }
 
@@ -48,6 +48,11 @@ section {
   width: auto;
 }
 
+.carousel {
+  position: relative;
+  padding-top: 52px;
+}
+
 @media (max-width: 767px) /* @grid-float-breakpoint -1 */
 {
     body {
@@ -66,8 +71,5 @@ section {
       padding: 0px;
     }
 
-    .service_image {
-      padding: 10px 5px;
-    }
 }
 
