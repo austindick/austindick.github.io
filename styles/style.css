@@ -37,7 +37,7 @@ body {
 }
 section {
   color: #5A6166;
-  padding: 10px 100px 30px;
+  padding: 50px 100px;
   margin: auto;
   line-height: 20px;
   font-size: 16px;
@@ -67,10 +67,11 @@ section {
 
 #about {
   color: #5A6166;
+  padding: 30px 100px 50px;
 }
 
 #services {
-  padding: 50px 100px;
+
 }
 
 #portaits {
