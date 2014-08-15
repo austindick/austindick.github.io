@@ -111,5 +111,10 @@ p.displayed {
       padding: 0px;
     }
 
+    .carousel {
+      position: relative;
+      margin-top: -9px;
+    }
+
 }
 
