@@ -114,6 +114,7 @@ p.displayed {
     .carousel {
       position: relative;
       margin-top: -9px;
+      padding-top:0px;
     }
 
 }
