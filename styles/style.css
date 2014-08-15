@@ -117,5 +117,10 @@ p.displayed {
       padding-top:0px;
     }
 
+    #about {
+      color: #5A6166;
+      padding: 30px 20px 50px;
+    }
+
 }
 
