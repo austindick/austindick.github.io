@@ -6,25 +6,29 @@ body {
 }
 
 .navbar-brand {
-	padding: 5px 15px;
+  padding: 5px 15px;
 }
 
 .logo {
-	height: 40px;
-	width: auto;
+  height: 40px;
+  width: auto;
 }
 
 .navbar-nav>li>a {
-	padding-top: 15px;
-	padding-bottom: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 p {
   margin: 0;
 }
 
+.clear {
+  clear: both;
+}
+
 .navbar {
-	border-radius: 0px;
+  border-radius: 0px;
   padding: 0 150px;
   box-shadow: 0px 0px 10px #000000;
 
@@ -101,7 +105,7 @@ p.displayed {
 @media (max-width: 767px) /* @grid-float-breakpoint -1 */
 {
     body {
-    	padding-top: 60px;
+      padding-top: 60px;
     }
 
     .logo {
