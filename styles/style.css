@@ -135,6 +135,16 @@ p.displayed {
       padding: 20px 0;
     }
 
+}
 
+@media (max-width: 960px) /* @grid-float-breakpoint -1 */
+{
+  .navbar {
+    padding: 0 50px;
+  }
+
+  section {
+    padding: 0 50px;
+  }
 }
 
