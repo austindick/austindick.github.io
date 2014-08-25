@@ -137,7 +137,7 @@ p.displayed {
     }
 
     .carousel-indicators {
-      bottom: 0px;
+      bottom: -5px;
     }
 
 }
