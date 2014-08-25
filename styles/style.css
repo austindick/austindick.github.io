@@ -136,6 +136,10 @@ p.displayed {
       padding: 20px 0;
     }
 
+    .carousel-indicators {
+      bottom: 0px;
+    }
+
 }
 
 @media (max-width: 960px) /* @grid-float-breakpoint -1 */
