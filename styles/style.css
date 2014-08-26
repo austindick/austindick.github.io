@@ -48,6 +48,7 @@ a:hover, a:focus {
   left:0;
   z-index: -1;
 }
+
 section {
   color: #5A6166;
   padding: 25px 100px;
@@ -137,7 +138,7 @@ p.displayed {
     }
 
     #services {
-      padding: 10px 0;
+      padding: 10px 20px;
     }
 
     .carousel-indicators {
