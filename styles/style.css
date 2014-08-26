@@ -71,6 +71,10 @@ section {
   padding: 20px 0;
 }
 
+.service-img {
+  padding: 20px 40px;
+}
+
 .content1 {
   background-color: #F0F0F0;
   border-top: 5px solid #5A6166;
@@ -90,7 +94,7 @@ section {
 
 
 #portaits {
-  padding: 40px 0 0;
+  padding: 60px 0 0;
 
 }
 
