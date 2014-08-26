@@ -118,6 +118,10 @@ p.displayed {
       padding-top: 60px;
     }
 
+    h1 {
+      font-size: 15px;
+    }
+
     .logo {
       height:35px;
       margin-top: 3px;
