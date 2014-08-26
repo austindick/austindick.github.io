@@ -112,6 +112,10 @@ p.displayed {
     padding-top: 10px;
 }
 
+ul.nav.navbar-nav.navbar-right {
+  text-align: center;
+}
+
 @media (max-width: 767px) /* @grid-float-breakpoint -1 */
 {
     body {
