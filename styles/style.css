@@ -24,6 +24,11 @@ p {
   margin: 0;
 }
 
+h1 {
+  color: #ffc266;
+  font-size: 30px;
+}
+
 a:hover, a:focus {
   text-decoration: none;
 }
@@ -69,10 +74,6 @@ section {
 
 #service-img {
   padding: 20px 0;
-}
-
-.service-img {
-  padding: 20px 40px;
 }
 
 .content1 {
@@ -131,7 +132,7 @@ ul.nav.navbar-nav.navbar-right {
       margin-top: 3px;
     }
     section {
-      padding: 0 20px;
+      padding: 0 20px
     }
 
     .navbar {
@@ -159,14 +160,37 @@ ul.nav.navbar-nav.navbar-right {
 
 }
 
-@media (max-width: 960px) /* @grid-float-breakpoint -1 */
+@media (min-width: 768px) /* @grid-float-breakpoint -1 */
 {
   .navbar {
-    padding: 0px;
+    padding: 0px 50px;
   }
 
-  section {
-    padding: 0 20px;
+  section, #about {
+    padding: 25px 50px 50px;
+  }
+
+}
+
+@media (min-width: 960px) /* @grid-float-breakpoint -1 */
+{
+  .navbar {
+    padding: 0px 50px;
+  }
+
+  section, #about {
+    padding: 25px 50px 50px;
+  }
+}
+
+@media (min-width: 1024px) /* @grid-float-breakpoint -1 */
+{
+  .navbar {
+    padding: 0px 100px;
+  }
+
+    section, #about {
+    padding: 25px 100px 50px;
   }
 }
 
