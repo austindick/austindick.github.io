@@ -150,7 +150,6 @@ ul.nav.navbar-nav.navbar-right {
 
     h1 {
       font-size: 40px;
-      font-family: 'bebasneue_book';
     }
 
     .logo {
@@ -163,6 +162,10 @@ ul.nav.navbar-nav.navbar-right {
 
     .navbar {
       padding: 0px;
+    }
+
+    .navbar-nav>li>a {
+      font-family: 'bebasneue_book';
     }
 
     .carousel {
