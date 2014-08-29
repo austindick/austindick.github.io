@@ -6,6 +6,26 @@ body {
   position: relative;
 }
 
+@font-face {
+    font-family: "myfont";
+    src: url("../fonts/myfont-cond.woff") format('woff');
+}
+
+@font-face {
+    font-family: "bebasneue_light";
+    src: url("../fonts/bebasneue_light-webfont.woff") format('woff');
+}
+
+@font-face {
+    font-family: "bebasneue_regular";
+    src: url("../fonts/bebasneue_regular-webfont.woff") format('woff');
+}
+
+@font-face {
+    font-family: "bebasneue_book";
+    src: url("../fonts/bebasneue_book-webfont.woff") format('woff');
+}
+
 .navbar-brand {
   padding: 5px 15px;
 }
@@ -18,15 +38,20 @@ body {
 .navbar-nav>li>a {
   padding-top: 15px;
   padding-bottom: 15px;
+  font-family: 'bebasneue_regular';
+  font-size: 20px;
 }
 
 p {
   margin: 0;
+  font-weight: 100;
+  letter-spacing: .5px;
 }
 
 h1 {
-  color: #f6835f;
-  font-size: 30px;
+  color: #78ABCC;
+  font-size: 50px;
+  font-family: 'bebasneue_book';
 }
 
 a:hover, a:focus {
