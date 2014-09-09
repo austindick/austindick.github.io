@@ -54,6 +54,13 @@ h1 {
   font-family: 'bebasneue_book';
 }
 
+h3 {
+  color: #78ABCC;
+  font-size: 29px;
+  text-align: center;
+  font-family: 'bebasneue_book';
+}
+
 a:hover, a:focus {
   text-decoration: none;
 }
@@ -98,12 +105,16 @@ section {
 }
 
 #service-img {
-  padding: 20px 0;
+  padding: 50px 30px 20px;
+}
+
+.service-img {
+  padding: 0 35px;
 }
 
 .content1 {
   background-color: #F0F0F0;
-  border-top: 5px solid #5A6166;
+  border-top: 1px solid #d1d1d1;
 
 }
 
@@ -111,6 +122,10 @@ section {
   background-color: #fff;
   border-top: 1px solid #d1d1d1;
 
+}
+
+#services {
+  text-align: center;
 }
 
 #about {
@@ -152,6 +167,12 @@ ul.nav.navbar-nav.navbar-right {
       font-size: 40px;
     }
 
+    h3 {
+      font-size: 20px;
+      font-family: 'bebasneue_regular';
+    }
+
+
     .logo {
       height:35px;
       margin-top: 3px;
@@ -181,11 +202,22 @@ ul.nav.navbar-nav.navbar-right {
 
     #services {
       padding: 10px 20px;
+      font-size: 13px;
+      letter-spacing: 0;
     }
 
     .carousel-indicators {
       bottom: -5px;
     }
+
+    #service-img {
+      padding: 20px 10px;
+    }
+
+    .service-img {
+      padding: 0;
+    }
+
 
 }
 
